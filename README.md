@@ -1,5 +1,9 @@
+----------------+---------------------+--------------------+-----------------------+-------------------------+---------------------------+-------------------------+--------
+
 ⚔️ Code Arena: Coding Battle Platform
 Code Arena is a real-time, competitive programming platform designed to facilitate coding and MCQ battles. It features a decoupled, full-stack architecture that supports high-concurrency, low-latency interaction for users participating in coding assessments and competitive rooms.
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Tech Stack
 Backend: Java (Spring Boot), Spring Security (JWT), Spring Data JPA, WebSockets (STOMP).
@@ -9,6 +13,8 @@ Frontend: React.js (Vite), Axios, Tailwind CSS.
 Database & Cache: MySQL, Redis.
 
 Authentication: JWT-based stateless authentication.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧠 Core Features
 Real-time Battle Rooms: Supports multiplayer coding and MCQ battles with WebSocket-based state synchronization.
@@ -20,6 +26,8 @@ Sandboxed Code Execution: Secure, integrated backend engine to evaluate user cod
 Real-time Communication: Built-in live chat features for participants within a room.
 
 Performance Analytics: Detailed post-battle feedback, including strength/weakness analysis and leaderboard rankings.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📂 Project Structure
 Backend (/cdac-project)
@@ -39,6 +47,8 @@ config/: System configuration, including SecurityConfig (JWT filters) and WebSoc
 
 dataInitializer/: Initializers to load foundational data (roles, questions) on startup.
 
+----------------------------------------------------------------------------------------------------------------------
+
 Frontend (/code-arena-fe)
 pages/: View-level components for different routes (e.g., DashboardPage, CodingRoomPage).
 
@@ -54,6 +64,8 @@ services/: API abstraction layer using Axios to communicate with the Spring Boot
 
 config/: Global configurations, including ApiInterceptor for handling auth headers and session expiration.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 🛠️ Prerequisites
 Java 17+
 
@@ -63,6 +75,8 @@ MySQL Server
 
 Redis Server
 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Setup Environment
 Configure your database and API settings in src/main/resources/application.properties:
 
@@ -70,6 +84,9 @@ Properties
 spring.datasource.url=jdbc:mysql://localhost:3306/codearena
 spring.datasource.username=your_user
 spring.datasource.password=your_password
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ▶️ Run the Application
 Start Backend
 Navigate to the cdac-project directory.
@@ -79,6 +96,8 @@ Build and run:
 Bash
 ./mvnw clean install
 ./mvnw spring-boot:run
+
+-------------------------------------------------------------------------
 Start Frontend
 Navigate to the code-arena-fe directory.
 
@@ -90,10 +109,13 @@ Start the development server:
 
 Bash
 npm run dev
+
 🌐 Access
 Backend API: http://localhost:8080
 
 Frontend UI: http://localhost:5173
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🔮 Future Feature Scope
 
@@ -104,3 +126,5 @@ Collaborative Whiteboard: An integrated digital canvas allowing candidates to sk
 Live Screen Sharing: Peer-to-peer (P2P) screen-sharing capability built via WebRTC to allow interviewers or proctors to observe the coding process live.
 
 Tournament Mode: Creating bracket-style tournament systems for larger community events.
+
+-------------------+-----------------------+-------------------------+---------------------------+------------------------+-------------------------+---------------------+
