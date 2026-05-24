@@ -1,4 +1,4 @@
-----------------+---------------------+--------------------+-----------------------+-------------------------+---------------------------+-------------------------+--------
+----------------+---------------------+--------------------+-----------------------+-------------------------+---------------------------+------------------
 
 ⚔️ Code Arena: Coding Battle Platform
 Code Arena is a real-time, competitive programming platform designed to facilitate coding and MCQ battles. It features a decoupled, full-stack architecture that supports high-concurrency, low-latency interaction for users participating in coding assessments and competitive rooms.
